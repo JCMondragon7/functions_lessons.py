@@ -1,3 +1,51 @@
+# function = a block of reusable code
+
+# print('happy birthday to you')
+# print('hoow old are you')
+
+# def happy_birthday(name, age):    #symbols also valid
+#     print('happy birthday to {name}')
+#     print('hoow old {age} years old!')
+
+# happy_birthday("bro, 18")
+# happy_birthday('steve, 40')
+
+
+# def display_invoice(username, amount, due_date):
+#     print(f'hello {username}')
+#     print(f'your bill of {amount:.2f} is due: {due_date}')
+
+# display_invoice('brocode', 56.25, '01/10')
+
+
+#return = statement used to end a function and send resullt back to caller
+
+# def add(x, y):
+#     z = x + y
+#     return z
+
+# def subtract(x,y):
+#     z = x - y
+#     return z
+
+# def multiply(x, y):
+#     z = x * y
+#     return z
+
+# def divide(x,y):
+#     z = x / y
+#     return z
+
+# print(add(1,2))
+
+
+def create_name(first, last):
+    first = first.capitalize()
+    last = last.capatalize()
+    return first + '' + last
+
+full_name = create_name(spongebob, squarepants)
+print(full_name)
 # Methods, Help & Documentation Practice #1
 # Remove the characters to the left of our main text:
 
